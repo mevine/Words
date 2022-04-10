@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_switch_layout"
+        android:title="@string/action_switch_layout"
+        android:icon="@drawable/ic_linear_layout"
+        app:showAsAction="always" />
+<!-- id: Just like views, the menu option has an id so that it can be referenced in code.
+title: This text won't actually be visible in your case, but may be useful for screen readers to identify the menu
+icon: The default is ic_linear_layout. However, this will be toggled on and off to show the grid icon, when the button is selected.
+showAsAction: This tells the system how to show the button. Because it's set to always, this button will always be visible in the app bar, and not become part of an overflow menu.   -->
+</menu>
